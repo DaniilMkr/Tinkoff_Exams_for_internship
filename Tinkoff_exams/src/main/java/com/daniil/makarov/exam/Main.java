@@ -6,14 +6,18 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter numbers of students");
         int n = scanner.nextInt();
+        System.out.println("Enter maximum score allowed");
         int s = scanner.nextInt();
 
         int[] min = new int[n];
         int[] max = new int[n];
 
         for (int i = 0; i < n; i++) {
+            System.out.println("Enter min score");
             min[i] = scanner.nextInt();
+            System.out.println("Enter max score");
             max[i] = scanner.nextInt();
         }
 

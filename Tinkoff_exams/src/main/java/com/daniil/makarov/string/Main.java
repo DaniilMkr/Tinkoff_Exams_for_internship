@@ -8,7 +8,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter length of string");
         int lengthOfString = input.nextInt();
+        System.out.println("Enter chars of string");
         String input_s = input.next();
         String s = "abcd";
         Map<Character, Integer> map = new HashMap<>();

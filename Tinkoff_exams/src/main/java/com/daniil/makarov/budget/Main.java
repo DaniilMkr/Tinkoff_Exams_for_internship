@@ -6,9 +6,11 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter numbers of days (n)");
         int num = input.nextInt();
         ArrayList<Integer> list = new ArrayList<>(num);
         for (int i = 0; i < num; i++) {
+            System.out.println("Enter value of ai balance at i day");
             list.add(input.nextInt());
         }
         int n = list.size();
